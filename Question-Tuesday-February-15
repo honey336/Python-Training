@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#What is the command to clear your terminal display
+- clear
+
+#What is the command to delete a file
+
+- rm -f filename
+
+#What command is used to change directories
+
+- cd <directoryname>
+
+#what command is used to get the ip address of all interfaces on a server
+
+- curl ifconfig.co
+
+#what command is used to change the ownership of a file??
+
+- chown -R user:user filename
+
