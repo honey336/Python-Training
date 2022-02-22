@@ -1,0 +1,66 @@
+#what is the maximum length of a python idntifier?
+# Ans: 79
+
+#which of the following is an invalid statement
+num = 1000000
+x y z = 1 2 3
+x,y,z = 1, 2, 3
+x_y_z = 10000000
+
+# Ans: x y z = 1 2 3
+
+#Which of the following are valid Python variable names:
+ver1.3
+return
+home_address
+route66
+Age
+4square
+
+# Ans: ver1.3, home_address, route66, Age
+
+#All keywords in Python are in _________ *
+Lower case
+Upper case
+None of the mentioned
+Capitalized
+
+# Ans: Lowercase, except these keywords ( True, False, None)
+
+#Which of the following are Python reserved words (keywords):
+default
+and
+goto
+class
+None
+white_check_mark
+eyes
+raised_hands
+React
+Reply
+
+# import keyword
+# initializing strings for testing while putting them in an array
+keys = ["default", "and", "goto", "class", "None","white_check_mark", "eyes", "raised_hands", "React", "Reply" ]
+ 
+for i in range(len(keys)):
+     # checking which are keywords
+    if keyword.iskeyword(keys[i]):
+        print(keys[i] + " is python keyword")
+    else:
+        print(keys[i] + " is not a python keyword")
+
+# Ans: default is not a python keyword
+and is python keyword
+goto is not a python keyword
+class is python keyword
+None is python keyword
+white_check_mark is not a python keyword
+eyes is not a python keyword
+raised_hands is not a python keyword
+React is not a python keyword
+Reply is not a python keyword
+
+
+
+
